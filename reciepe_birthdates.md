@@ -32,15 +32,16 @@ _Include the initializer, public properties, and public methods with all paramet
 # EXAMPLE
 
 class Birthdates:
+    birthday_list = []
 
-    def __init__(self, name, birthday):
-        self.name = name
-        self.birthday = birthday
-        self.birthday_list = []
+    def __init__(self):
+        
     ## Parameters: name (string), birthday (string)
     ##  side effects: none 
 
-    
+    def add_birthday():
+    ## parameters:  name (string), birthday (string)
+
 
     def update_birthday(self, name, newdate):
         
